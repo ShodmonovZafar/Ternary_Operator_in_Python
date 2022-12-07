@@ -54,4 +54,5 @@ print((lambda: b, lambda: a)[a < b]())
 ```
 
 Time Complexity: O(1)
+
 Auxiliary Space: O(1)
