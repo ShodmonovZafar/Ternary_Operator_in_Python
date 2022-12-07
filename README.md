@@ -1,0 +1,1 @@
+# Ternary_Operator_in_Python
