@@ -56,3 +56,61 @@ print((lambda: b, lambda: a)[a < b]())
 Time Complexity: O(1)
 
 Auxiliary Space: O(1)
+
+* Ternary operator can be written as nested if-else:
+```
+# Python program to demonstrate nested ternary operator
+a, b = 10, 20
+
+print ("Both a and b are equal" if a == b else "a is greater than b" if a > b else "b is greater than a")
+
+```
+
+Time Complexity: O(1)
+
+Auxiliary Space: O(1)
+
+The above approach can be written as: 
+```
+# Python program to demonstrate nested ternary operator
+a, b = 10, 20
+
+if a != b:
+	if a > b:
+		print("a is greater than b")
+	else:
+		print("b is greater than a")
+else:
+	print("Both a and b are equal")
+
+```
+
+#### Output:
+```
+ b is greater than a
+```
+
+Time Complexity: O(1)
+
+Auxiliary Space: O(1)
+
+* To use print function in ternary operator be like:- 
+Example: Find the Larger number among 2 using ternary operator in python3
+```
+a=5
+b=7
+
+# [statement_on_True] if [condition] else [statement_on_false]
+
+print(a,"is greater") if (a>b) else print(b,"is Greater")
+
+```
+
+#### Output:
+```
+7 is Greater
+```
+
+Time Complexity: O(1)
+
+Auxiliary Space: O(1)
